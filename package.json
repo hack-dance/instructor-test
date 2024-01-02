@@ -1,0 +1,34 @@
+{
+  "name": "instructor-test",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "bun --watch ./src/index.ts"
+  },
+  "dependencies": {
+    "@types/node": "18.15.3",
+    "@types/react": "18.2.20",
+    "@types/react-dom": "18.2.7",
+    "bun-types": "^1.0.13",
+    "elysia": "^0.7.29",
+    "js-tiktoken": "^1.0.7",
+    "openai": "4.20.1",
+    "ramda": "^0.29.0",
+    "schema-stream": "latest",
+    "typescript": "5.2.2",
+    "zod": "3.22.4",
+    "zod-to-json-schema": "^3.22.3"
+  },
+  "devDependencies": {
+    "@ianvs/prettier-plugin-sort-imports": "4.1.0",
+    "@typescript-eslint/eslint-plugin": "6.5.0",
+    "@typescript-eslint/parser": "6.5.0",
+    "eslint": "^8.40.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-import-resolver-typescript": "^3.5.5",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
+    "husky": "^8.0.3",
+    "prettier": "3.0.0"
+  }
+}
